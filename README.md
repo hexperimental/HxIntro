@@ -20,9 +20,8 @@ Include HxIntro.h and .m files into your project.
     self.introView.hideVersion = NO;  //Default: NO;
     self.introView.touchToSkip = NO;  //Default: YES;    
 }
-/* .... */
 
-/* .... */
+
 -(void)viewDidAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.introView show];
@@ -43,6 +42,6 @@ Include HxIntro.h and .m files into your project.
 
 ## Contact
 
-HxTwoStepButton is available under the MIT license. See the LICENSE file for more info.
+HxIntro is available under the MIT license. See the LICENSE file for more info.
 - http://github.com/hexperimental
 - http://hexperimental.com
