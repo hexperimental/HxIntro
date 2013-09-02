@@ -36,6 +36,8 @@ Include HxIntro.h and .m files into your project.
     self.introView.hideVersion = NO;  //Default: NO;
     // If Yes will dismiss the custom intro image when touched.
     self.introView.touchToSkip = NO;  //Default: YES; 
+    self.introView.dismissModalTransitionStyle = UIModalTransitionStyleCrossDissolve; //Default : None
+    self.introView.defaultFade = UIViewAnimationOptionTransitionCrossDissolve; //Default : None    
 ```
 
 
